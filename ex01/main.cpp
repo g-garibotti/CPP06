@@ -14,7 +14,6 @@ int main()
     
     std::cout << "Original address: " << &original << std::endl;
     std::cout << "Recovered address: " << recovered << std::endl;
-    std::cout << "Are they equal? " << (&original == recovered ? "YES" : "NO") << std::endl;
     
     std::cout << "Recovered data: " << recovered->id << ", ";
     std::cout << recovered->name << ", " << recovered->value << std::endl;
